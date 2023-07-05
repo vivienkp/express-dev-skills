@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var todosCtrl = require('../controllers/skills');
+var skillsCtrl = require('../controllers/skills');
 
 //GET request /skills
 router.get('/', skillsCtrl.index);
